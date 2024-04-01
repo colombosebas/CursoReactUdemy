@@ -1,17 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {App, App2, App3, App4, App5} from './HelloWorldApp'
-import {AppFirst, AppFirst2, AppFirst3} from './FirstApp'
+import {AppFirst} from './FirstApp'
+import './style.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        {/* <App/>
-        <App2/>
-        <App3/>
-        <App4/>
-        <App5/>          */}
-        <AppFirst/>
-        <AppFirst2/>
-        <AppFirst3/>
-    </React.StrictMode>
-)
+         <AppFirst/>
+     </React.StrictMode>
+ )
