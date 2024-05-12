@@ -11,8 +11,8 @@ const newObject = {
 export const AppFirst = ({title,subTitle}) => {
     return(
         <>
-            <h1>Soy {newMessage}</h1>
-            <h2>{title}</h2>
+            <h1 data-testid='test-title'>{title}</h1>
+            <h2>Sabías {newMessage}</h2>
             <h3>{subTitle}</h3>
         </>
     );
